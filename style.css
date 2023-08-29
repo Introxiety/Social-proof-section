@@ -282,5 +282,13 @@ p{
         max-width: 23rem;
         color: #927B91;
       }
+
+      .gap-xs{
+        gap: .5rem;
+      }
+      
+      .gap-m{
+        gap:3rem ;
+      }
   }
   
