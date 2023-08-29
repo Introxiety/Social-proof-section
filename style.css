@@ -214,7 +214,7 @@ p{
     main {
         display: grid;
         grid-template-columns: 20rem 10rem 10rem 20rem;
-        grid-template-rows: 16.625em 16.625em;
+        grid-template-rows: 16.625em 20em;
         grid-template-areas:
         'introSection introSection ratingSection ratingSection'
         'commentSection commentSection commentSection commentSection';
@@ -260,7 +260,7 @@ p{
       }
 
       .create-block{
-        max-height:14.625rem;
+        max-height:16.625rem;
         max-width: 21.875rem;
         padding: 2rem 1.5rem;
       }
