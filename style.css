@@ -262,7 +262,7 @@ p{
       .create-block{
         max-height:14.625rem;
         max-width: 21.875rem;
-        padding: 2rem 1.5rem;
+        padding: 2.5rem 2rem;
       }
 
       .commentSection > div:nth-of-type(1){
