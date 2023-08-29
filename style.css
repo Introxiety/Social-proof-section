@@ -242,7 +242,7 @@ p{
       }
 
       .ratingSection{
-        max-width:35.8125rem ;
+        max-width:30.8125rem;
       }
       .ratingSection > div:nth-of-type(1){
        justify-self: start;
