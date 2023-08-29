@@ -270,8 +270,11 @@ p{
         align-self: flex-end;
       }
       h1{
-        font-size: 5rem;
-        max-width: 22rem;
+        max-width: 25rem;
+      }
+
+      .font-lg{
+        font-size: 3.5rem;
       }
       .introSection > p{
         font-size: 1.1875;
