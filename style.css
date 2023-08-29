@@ -206,6 +206,10 @@ p{
     font-weight:100;
 }
 
+.gap-x{
+    gap: 1rem;
+}
+
 @media (min-width: 90em) {
     main {
         display: grid;
@@ -240,7 +244,6 @@ p{
         display: flex;
         flex-direction: row;
       }
-
       .ratingSection{
         max-width:30.8125rem;
       }
@@ -290,6 +293,10 @@ p{
       
       .gap-m{
         gap:3rem ;
+      }
+
+      .gap-x{
+        gap: 2rem;
       }
   }
   
