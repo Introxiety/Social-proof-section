@@ -17,7 +17,7 @@ const ratingBy = function () {
 
     for (let i = 0; i < 3; i++) {
         const createBlock = document.createElement('div');
-        createBlock.classList.add('ratingItem', 'block-layout-rating', 'flex', 'col', 'gap-xs'); // Add a class for styling
+        createBlock.classList.add('ratingItem', 'block-layout-rating', 'flex', 'col', 'gap-x'); // Add a class for styling
 
         const textRated = document.createElement('p');
         textRated.innerText = `Rated 5 Stars by ${rated[i]}`; // Set the text
@@ -59,6 +59,7 @@ const commentBy = function () {
         status.classList.add('color-l-magenta');
         status.innerText = 'Verified Buyer';
 
+        profileName.classList.add('font-profile');
         profilePicture.src = (`images/${image[i]}.jpg`);
         profilePicture.alt = '';
 
