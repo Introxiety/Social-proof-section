@@ -4,6 +4,7 @@ const createStars = function () {
     for (let i = 0; i < 5; i++) {
         const star = document.createElement('img');
         star.src = 'images/icon-star.svg';
+        star.alt ='';
         starContainer.appendChild(star);
     }
 
@@ -59,6 +60,7 @@ const commentBy = function () {
         status.innerText = 'Verified Buyer';
 
         profilePicture.src = (`images/${image[i]}.jpg`);
+        profilePicture.alt = '';
 
         textRated.innerText = `${name[i]} `;
         textRated.appendChild(status);  // Set the text
